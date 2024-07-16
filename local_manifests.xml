@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="palexdev"
+           fetch="https://github.com/palexdev" />
+  
+  <project path="device/xiaomi/lmi" remote="palexdev" name="device_xiaomi_lmi"  revision="blaze14" clone-depth="1" />
+  <project path="vendor/xiaomi/lmi" remote="palexdev" name="vendor_xiaomi_lmi" revision="evox14" clone-depth="1" />
+  <project path="kernel/xiaomi/sm8250" remote="palexdev" name="kernel_raphael_sm8250" revision="a14" clone-depth="1"/>
+</manifest>
