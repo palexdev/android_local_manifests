@@ -2,9 +2,11 @@
 <manifest>
   <remote name="palexdev" fetch="https://github.com/palexdev"/>
   <remote name="tiann" fetch="https://github.com/tiann"/>
-  
+  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
+
   <project path="device/xiaomi/lmi" remote="palexdev" name="android_device_xiaomi_lmi"  revision="rising14" clone-depth="1"/>
   <project path="vendor/xiaomi/lmi" remote="palexdev" name="android_vendor_xiaomi_lmi" revision="a14" clone-depth="1"/>
   <project path="kernel/xiaomi/sm8250" remote="palexdev" name="android_kernel_xiaomi_sm8250" revision="a14" clone-depth="1"/>
 
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-21" remote="LineageOS"/>
 </manifest>
